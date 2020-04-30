@@ -155,3 +155,20 @@ Extensions used in this version:
 *	[olokos](https://github.com/olokos) [Steam](https://steamcommunity.com/id/olokos/) [My server](https://kiepownica.pl/)
 *	and many, many more people who contributed to the project!
 
+## Problems
+
+* If you have this error in the log because of database 
+
+"[SurfTimer] Database tables could not be created! Error: Lost connection to MySQL server during query
+[SM] Blaming: SurfTimer.smx
+[SM] Call stack trace:
+[SM] [0] SetFailState
+[SM] [1] Line 117, surftimer/sql.sp::SQLTxn_CreateDatabaseFailed"
+
+* Simply just make a .txt file and copy paste this in :
+
+https://pastebin.com/gPPFhMdV
+
+* and import to your database.
+
+*     Thanks to 13ace37
